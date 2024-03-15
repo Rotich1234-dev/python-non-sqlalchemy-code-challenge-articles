@@ -133,4 +133,4 @@ class Author:
         if self.articles():
             return list(set(article.magazine.category for article in self.articles()))
         else:
-            return None
+            return None 
